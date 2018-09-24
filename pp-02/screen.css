@@ -7,13 +7,31 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
-html{
+html {
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.222em; /* 22px /18px = 1.222em */
-  padding: = 1.125em;
+  padding: = 1.222em;
   background-image: url(redbaseline.odg);
+}
+/* writing for actual paragraphs and headers here. */
+h1 {
+  padding: 1.222em 0 0 0;
+  font-weight: bolder;
+}
+h2 {
+  padding:1.222em 0 0 0;
+    font-weight: bold;
 }
 p {
   text-indent: 1em;
   word-wrap: break-word;
+}
+/* Line syntax time! */
+ul {
+  color: navy;
+  padding: 0 0 0 1.222em;
+}
+/* Ending time. */
+#footer {
+  padding: 1.222em 0 0 0;
 }
