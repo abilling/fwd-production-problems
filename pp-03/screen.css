@@ -20,16 +20,16 @@ display: flex;
 #one {
   color: white;
 }
-.three {
-  order: 3;
+#three {
+order: 3;
   background-color: purple;
 }
-.two {
-  order: 2;
+#two {
+order: 2;
   background-color: green;
 }
-.one {
-  order: 1;
+#one {
+order: 1;
   background-color: red;
 }
 
