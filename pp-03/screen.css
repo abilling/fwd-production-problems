@@ -12,7 +12,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ==== MODULAR STYLES === */
 .container{
 display: flex;
-
 }
 
 #three,
@@ -22,14 +21,17 @@ display: flex;
 }
 #three {
 order: 3;
+height: 5vw;
   background-color: purple;
 }
 #two {
 order: 2;
+height: 5vw;
   background-color: green;
 }
 #one {
 order: 1;
+height: 5vw;
   background-color: red;
 }
 
