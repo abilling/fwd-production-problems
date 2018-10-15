@@ -8,7 +8,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* ===== BASE STYLES ===== */
-
+section {
+  height: 25vw;
+}
 /* ==== MODULAR STYLES === */
 .container{
 display: flex;
@@ -20,24 +22,19 @@ display: flex;
   color: white;
 }
 #three {
-order: 3;
-height: 5vw;
   background-color: purple;
 }
 #two {
-order: 2;
-height: 5vw;
   background-color: green;
 }
 #one {
-order: 1;
-height: 5vw;
   background-color: red;
 }
 
 /* ==== LAYOUT STYLES ==== */
 #content {
 display: flex;
+flex-flow:row-reverse;
 }
 
 #three,
