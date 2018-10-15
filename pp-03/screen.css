@@ -10,25 +10,32 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 /* ==== MODULAR STYLES === */
+.container{
+display: flex;
+
+}
+
 #three,
 #two,
 #one {
   color: white;
 }
-#three {
+.three {
+  order: 3;
   background-color: purple;
 }
-#two {
+.two {
+  order: 2;
   background-color: green;
 }
-#one {
+.one {
+  order: 1;
   background-color: red;
 }
 
-
 /* ==== LAYOUT STYLES ==== */
 #content {
-
+display: flex;
 }
 
 #three,
