@@ -52,4 +52,4 @@ function addTwo(x) {
 }
 
 console.log(addTwo(4)); // 6
-console.log(x); // should be 5 if you corrected the double() function above
+console.log(x); // should be 5 if you corrected the double() function above 
